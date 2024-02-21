@@ -1,16 +1,7 @@
 objs/./src/LedDriver/LedDriver.o: src/LedDriver/LedDriver.c \
- /home/sam/tools/cpputest/include/CppUTest/MemoryLeakDetectorMallocMacros.h \
- /home/sam/tools/cpputest/include/CppUTest/CppUTestConfig.h \
- /home/sam/tools/cpputest/include/CppUTest/CppUTestGeneratedConfig.h \
- /home/sam/tools/cpputest/include/CppUTest/StandardCLibrary.h \
+ ../unity.framework/extras/fixture/src/unity_fixture_malloc_overrides.h \
  include/LedDriver/LedDriver.h
 
-/home/sam/tools/cpputest/include/CppUTest/MemoryLeakDetectorMallocMacros.h:
-
-/home/sam/tools/cpputest/include/CppUTest/CppUTestConfig.h:
-
-/home/sam/tools/cpputest/include/CppUTest/CppUTestGeneratedConfig.h:
-
-/home/sam/tools/cpputest/include/CppUTest/StandardCLibrary.h:
+../unity.framework/extras/fixture/src/unity_fixture_malloc_overrides.h:
 
 include/LedDriver/LedDriver.h:

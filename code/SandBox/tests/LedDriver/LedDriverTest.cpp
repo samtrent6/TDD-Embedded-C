@@ -27,7 +27,7 @@ TEST_GROUP(LedDriver)
 {
     void setup()
     {
-      LedDriver_Create();
+      //LedDriver_Create(&virtualLeds);
     }
 
     void teardown()
